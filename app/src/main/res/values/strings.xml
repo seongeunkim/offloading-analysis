@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TCC</string>
+    <string name="apply_filter">Local Filter</string>
+    <string name="apply_filter_remote">Remote Filter</string>
+    <string name="experiment">Run Experiments</string>
+</resources>

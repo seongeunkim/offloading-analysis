@@ -1,0 +1,56 @@
+{
+  "experiments": [
+    {
+      "name": "local",
+      "method": "bw_gpu",
+      "imageSizes": [64, 128, 256, 512, 1024],
+      "layers": [
+        {
+          "name": "localhost",
+          "enabled": false,
+          "ip": "localhost",
+          "iterations": 200
+        }
+      ]
+    },
+    {
+      "name": "sp",
+      "method": "bw_gpu",
+      "imageSizes": [64, 128, 256, 512, 1024],
+      "layers": [
+        {
+          "name": "remote",
+          "enabled": false,
+          "ip": "35.199.88.176",
+          "iterations": 50
+        }
+      ]
+    },
+    {
+      "name": "us",
+      "method": "bw_gpu",
+      "imageSizes": [64, 128, 256, 512, 1024],
+      "layers": [
+        {
+          "name": "remote",
+          "enabled": false,
+          "ip": "35.230.80.111",
+          "iterations": 40
+        }
+      ]
+    },
+    {
+      "name": "battery",
+      "method": "bw_gpu",
+      "imageSizes": [64],
+      "layers": [
+        {
+          "name": "remote",
+          "enabled": false,
+          "ip": "35.199.88.176",
+          "iterations": 100
+        }
+      ]
+    }
+  ]
+}
